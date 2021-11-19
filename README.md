@@ -18,6 +18,7 @@ CREATE TABLE Planetas(
 	Clima varchar(50) NOT NULL,
 	Populacao int NOT NULL,
 )
+
 GO
 ALTER TABLE Planetas ADD CONSTRAINT PK_Planetas PRIMARY KEY (IdPlaneta);
 GO

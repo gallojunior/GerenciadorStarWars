@@ -4,7 +4,6 @@ Projeto criado para o bootcamp #2 Everis da DIO
 CREATE DATABASE EstrelaDaMorte;
 GO
 
-
 USE EstrelaDaMorte;
 GO
 
@@ -16,12 +15,13 @@ CREATE TABLE Planetas(
 	Orbita float NOT NULL,
 	Diametro float NOT NULL,
 	Clima varchar(50) NOT NULL,
-	Populacao int NOT NULL,
+	Populacao int NOT NULL
 )
-
 GO
+
 ALTER TABLE Planetas ADD CONSTRAINT PK_Planetas PRIMARY KEY (IdPlaneta);
 GO
+
 
 
 CREATE TABLE Naves(
